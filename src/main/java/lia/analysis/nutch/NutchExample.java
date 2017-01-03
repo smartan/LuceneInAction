@@ -15,12 +15,12 @@ package lia.analysis.nutch;
  * See the License for the specific lan      
 */
 
+import org.apache.hadoop.conf.Configuration;
+import org.apache.lucene.analysis.Token;
+import org.apache.lucene.analysis.TokenStream;
 import org.apache.nutch.analysis.NutchDocumentAnalyzer;
 import org.apache.nutch.searcher.Query;
 import org.apache.nutch.searcher.QueryFilters;
-import org.apache.hadoop.conf.Configuration;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.Token;
 
 import java.io.IOException;
 import java.io.StringReader;
